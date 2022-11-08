@@ -1,0 +1,95 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Structure bodelling with float */
+
+#basic-container {
+    margin: 30px auto;
+    width: 900px;
+    height: 650px;
+}
+
+.block {
+    position: relative;
+}
+
+.block p {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -135%);
+}
+
+#blockA {
+    background: rgb(112, 167, 223);
+    height: 18%;
+}
+
+#blockB {
+    background: rgb(250, 192, 246);
+    height: 16%;
+}
+
+#block-container {
+    height: 66%;
+}
+
+#blockC {
+    background: rgb(188, 230, 139);
+    width: 75%;
+    height: 100%;
+    float: left;
+}
+
+#blockD {
+    background: rgb(147, 176, 113);
+    width: 25%;
+    height: 100%;
+    float: right;
+}
+
+/* Structure modeling with flex */
+
+#basic-flex-container {
+    display: inline-flex;
+    flex-direction: column;
+    margin: 20px;
+    width: 900px;
+    height: 650px;
+}
+
+.flex-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#flex-blockA {
+    background: rgb(112, 167, 223);
+    height: 18%;
+}
+
+#flex-blockB {
+    background: rgb(250, 192, 246);
+    height: 16%;
+}
+
+#flex-block-container {
+    height: 66%;
+    display: flex;
+    flex-direction: row;
+}
+
+#flex-blockC {
+    background: rgb(188, 230, 139);
+    width: 75%;
+}
+
+#flex-blockD {
+    background: rgb(147, 176, 113);
+    width: 25%;
+}

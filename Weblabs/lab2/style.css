@@ -1,0 +1,123 @@
+.phone-container {
+    display: flex;
+    justify-content: space-around;
+
+    width: 1200px;
+}
+.phone {
+    border: 2px solid black;
+    background: rgb(214, 227, 188);
+    height: 400px;
+    width: 220px;
+    border-radius: 50px;
+    margin: 10px;
+}
+.screen {
+    border: 2px solid black;
+    margin: 20px 20px 0px 20px;
+    height: 45%;
+    border-radius: 40px;
+}
+.button-container {
+    margin: 20px;
+    position: relative;
+}
+.button {
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    border: 2px solid black;
+    background: rgb(63, 49, 81);
+}
+.button:active {
+    border: 2px solid rgb(63, 49, 81);
+    background: black;
+}
+
+/* Positional phone styles */
+.screen .time-pos {
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+    top: 5%;
+}
+
+#pos1 {
+    position: absolute;
+    top: 0px;
+    left: 15px
+}
+#pos2 {
+    position: absolute;
+    top: 0px;
+    left: 70px
+}
+#pos3 {
+    position: absolute;
+    top: 0px;
+    left: 125px
+}
+#pos4 {
+    position: absolute;
+    top: 55px;
+    left: 15px
+}
+#pos5 {
+    position: absolute;
+    top: 55px;
+    left: 70px
+}
+#pos6 {
+    position: absolute;
+    top: 55px;
+    left: 125px
+}
+#pos7 {
+    position: absolute;
+    top: 110px;
+    left: 15px
+}
+#pos8 {
+    position: absolute;
+    top: 110px;
+    left: 70px
+}
+#pos9 {
+    position: absolute;
+    top: 110px;
+    left: 125px
+}
+
+/* Transform phone styles */
+.screen .time-trans {
+    text-align: center;
+    font-size: 50px;
+    transform: translate(0px, 15%);
+}
+#trans1 {
+    transform: translate(15px, 0px);
+}
+#trans2 {
+    transform: translate(70px, -40px);
+}
+#trans3 {
+    transform: translate(125px, -80px);
+}
+#trans4 {
+    transform: translate(15px, -65px);
+}
+#trans5 {
+    transform: translate(70px, -105px);
+}
+#trans6 {
+    transform: translate(125px, -145px);
+}
+#trans7 {
+    transform: translate(15px, -130px);
+}
+#trans8 {
+    transform: translate(70px, -170px);
+}
+#trans9 {
+    transform: translate(125px, -210px);
+}
